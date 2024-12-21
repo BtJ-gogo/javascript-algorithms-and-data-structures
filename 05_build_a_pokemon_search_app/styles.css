@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  background-color: white;
+  max-width: 800px;
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-info-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#sprite {
+  width: 150px;
+  height: auto;
+}
+
+#info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#height {
+  margin-left: 1rem;
+}
+
+#stats {
+  border: solid;
+  margin-top: 1rem;
+}
+
+th, td {
+  border: solid;
+  text-align: center;
+}
+
+#base {
+  width: 150px;
+}
+
+#stat {
+  width: 100px;
+}
